@@ -1,0 +1,8 @@
+<!--pages/kj/RandomSum/index.wxml-->
+<view class="box">
+  <view>电科19-2杨振宇</view>
+  <view class='title'>彩票号码</view>
+  <view>产生的随机号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap='newRand'>重新生成</button>
+</view>
